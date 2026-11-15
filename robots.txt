@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ideasgraficas.eu/sitemap.xml

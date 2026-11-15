@@ -1,0 +1,3 @@
+function m(o){document.getElementById('menu').classList.toggle('on',!!o);document.body.style.overflow=o?'hidden':'';var b=document.querySelector('.burger');if(b)b.setAttribute('aria-expanded',o?'true':'false')}addEventListener('keydown',function(e){if(e.key==='Escape')m(0)});function ck(){try{localStorage.setItem('ck','1')}catch(e){}document.getElementById('ck').classList.remove('on')}try{if(!localStorage.getItem('ck'))document.getElementById('ck').classList.add('on')}catch(e){document.getElementById('ck').classList.add('on')}
+function r(){document.body.classList.toggle('r',location.hash==='#resursi');if(location.hash==='#resursi')scrollTo(0,0)}
+addEventListener('hashchange',r);r();
