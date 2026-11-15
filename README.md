@@ -4,8 +4,8 @@
 
 ## Структура
 - `index.html` – начална страница + страница „Ресурси“ (`#resursi`)
-- `css/style.css`, `js/main.js`
-- `favicon.svg`, `robots.txt`, `sitemap.xml`, `404.html`
+- `css/style.css`, `js/main.js`, `img/logo-mark.png` (G+I лого, оцветява се с CSS маска)
+- `favicon.png`, `robots.txt`, `sitemap.xml`, `404.html`
 - `_headers` – защитни хедъри за Cloudflare Pages
 - `CNAME` – за GitHub Pages
 
